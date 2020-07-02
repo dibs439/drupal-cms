@@ -1,0 +1,39 @@
+uuid: 68ac32ff-2aef-4de4-8a30-87297b861c95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.offerings.body
+    - field.field.node.offerings.field_image
+    - node.type.offerings
+  module:
+    - image
+    - text
+    - user
+id: node.offerings.default
+targetEntityType: node
+bundle: offerings
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
