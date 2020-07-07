@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/drush": "^6.0@RC",
+        "drupal/structure_sync": "^1.16",
         "drush/drush": "~8"
     },
     "conflict": {
