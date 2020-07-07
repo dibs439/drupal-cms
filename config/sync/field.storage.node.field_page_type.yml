@@ -1,0 +1,30 @@
+uuid: 529d7018-1849-4d56-b42a-b811e123fcf4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_page_type
+field_name: field_page_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: home
+      label: Home
+    -
+      value: services
+      label: Services
+    -
+      value: industry
+      label: Industry
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

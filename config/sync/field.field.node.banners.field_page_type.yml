@@ -1,0 +1,21 @@
+uuid: c7aa3087-c9fe-44ed-8a10-904e6f581866
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_type
+    - node.type.banners
+  module:
+    - options
+id: node.banners.field_page_type
+field_name: field_page_type
+entity_type: node
+bundle: banners
+label: 'Page Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

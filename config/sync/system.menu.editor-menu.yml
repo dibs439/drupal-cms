@@ -1,0 +1,8 @@
+uuid: 043264e4-69bd-4374-88f5-4ee69f6d653e
+langcode: en
+status: true
+dependencies: {  }
+id: editor-menu
+label: 'Editor Menu'
+description: ''
+locked: false

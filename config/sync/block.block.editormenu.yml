@@ -1,0 +1,33 @@
+uuid: 63bc5c3a-ced1-4899-a5cd-85b3e8445d2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.editor-menu
+  module:
+    - system
+    - user
+  theme:
+    - bartik
+id: editormenu
+theme: bartik
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:editor-menu'
+settings:
+  id: 'system_menu_block:editor-menu'
+  label: 'Editor Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

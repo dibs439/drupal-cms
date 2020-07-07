@@ -1,0 +1,36 @@
+uuid: 8c59392d-fc2a-4f46-96c1-ae2b591f0262
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.overview.field_description
+    - field.field.node.overview.field_page_type
+    - node.type.overview
+  module:
+    - options
+    - user
+id: node.overview.default
+targetEntityType: node
+bundle: overview
+mode: default
+content:
+  field_description:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_page_type:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
