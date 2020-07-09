@@ -8,6 +8,7 @@ dependencies:
     - node.type.overview
     - system.menu.editor-menu
     - user.role.administrator
+    - user.role.editor
   module:
     - node
     - user
@@ -30,6 +31,7 @@ display:
         options:
           role:
             administrator: administrator
+            editor: editor
       cache:
         type: tag
         options: {  }
@@ -346,7 +348,7 @@ display:
       path: manage-overview
       menu:
         type: normal
-        title: Overview
+        title: 'Manage Overview'
         description: ''
         expanded: false
         parent: ''

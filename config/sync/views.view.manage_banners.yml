@@ -10,6 +10,7 @@ dependencies:
     - node.type.banners
     - system.menu.editor-menu
     - user.role.administrator
+    - user.role.editor
   module:
     - image
     - node
@@ -33,6 +34,7 @@ display:
         options:
           role:
             administrator: administrator
+            editor: editor
       cache:
         type: tag
         options: {  }

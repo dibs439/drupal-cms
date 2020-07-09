@@ -1,4 +1,4 @@
-menus: {  }
+log: 1
 blocks:
   -
     info: 'Test Block'
@@ -12,4 +12,4 @@ blocks:
         value: "<p>Test Block Test Block Test Block Test Block</p>\r\n"
         summary: ''
         format: basic_html
-log: 1
+menus: {  }
